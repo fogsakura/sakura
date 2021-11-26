@@ -1,0 +1,13 @@
+char* StrCpy(char* src){
+	int len = 0;
+	char* src_ = src;  // 备份头地址
+	while(src++){
+		len++;
+	}
+	char* new_src = (char*)malloc(len + 1);
+	for(int i = 0;i < len;i++){
+		new_src[i] = src_[i]；
+	}
+	new_src[len] = '\0';
+	return new_src;
+}
