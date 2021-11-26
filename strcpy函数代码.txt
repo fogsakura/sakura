@@ -12,5 +12,7 @@ char* StrCpy(char* src){
 	return new_src;
 }
 /**
+<<<<<<< HEAD
 本地编辑
 **/
+
