@@ -12,5 +12,5 @@ char* StrCpy(char* src){
 	return new_src;
 }
 /**
-远程edit
+B20040929 章嘉锋
 **/
